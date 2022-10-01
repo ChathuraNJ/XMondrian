@@ -1,7 +1,7 @@
 import pandas as pd
 import statistics as st
 import time
-df=pd.read_csv(r'C:\Users\chathura\Desktop\CHANDU\py_freq\data1.csv')
+df=pd.read_csv(r'C:\Users\chathura\Desktop\data1.csv')
 print(df.head())
 col=input("Enter the Quasi Identifiers like 'Age','Education',....etc ")
 SA=input("Enter the Sensitive Attribute ")
